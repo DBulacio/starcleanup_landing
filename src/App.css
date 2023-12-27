@@ -17,7 +17,9 @@ p, h1 {
 .nav-logo {
   width: 110px;
 }
-
+#basic-nav-dropdown {
+  margin-right: 1rem;
+}
 #basic-nav-dropdown, .nav-link {
   font-family: Poppins, Sans-Serif;
   font-size: 18px !important;
@@ -32,7 +34,6 @@ p, h1 {
   border: none !important;
   font-family: Poppins, Sans-Serif !important;
   font-weight: 600 !important;
-  margin-top: 2rem;
   transform: scale(1);
   transition: background-color .3s ease, transform .3s ease !important;
 }
@@ -97,6 +98,7 @@ p, h1 {
 .home-pg-2 {
   font-size: 22px;
   font-weight: 300;
+  margin-bottom: 2rem !important;
 }
 
 @media (max-width: 1300px) {

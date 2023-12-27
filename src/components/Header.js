@@ -26,7 +26,7 @@ function Header() {
               <NavDropdown.Item className='nav-item' href="">Carpet Cleaning</NavDropdown.Item>
               <NavDropdown.Item className='nav-item' href="">Upholstery Cleaning</NavDropdown.Item>
             </NavDropdown>
-            <Button variant="success">CALL US TODAY 786-877-6460</Button>
+            <Button className='main-button'>CALL US TODAY XXX-XXX-XXXX</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
