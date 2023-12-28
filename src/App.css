@@ -1,16 +1,25 @@
 :root {
   --main: #529d38; /* rgb(82, 157, 56) */
   --secondary: #83389d;
+  --dark: hsl(210, 10%, 19%);
+  --dark-secondary: hsl(210, 10%, 30%);
 }
 
 body {
   font-family: Poppins, Sans-Serif !important;
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 p, h1 {
   margin: 0 !important;
+}
+
+.starcleanup {
+  color: var(--main);
+  font-weight: 600;
 }
 
 /* NAVBAR */
@@ -70,9 +79,9 @@ p, h1 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.3); /* Adjust the last value (0.5) for the desired transparency level */
-  z-index: 1; /* Ensure the overlay is on top of the image */
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .home-text {
@@ -104,22 +113,51 @@ p, h1 {
 /* Home Slogan */
 .home-slogan-bg {
   width: 100%;
-  background-color: var(--main);
+  background-color: var(--dark);
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid var(--main);
+  border-bottom: 3px solid var(--main);
+  color: var(--main);
+  font-weight: 600;
 }
-.home-slogan-bg {
-  color: #fff;
+
+/* Home Services */
+.home-services-bg {
+  background-color: var(--dark-secondary);
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 10rem;
+}
+/* .services-content, .services-image {
+  flex: 1;
+} */
+.services-title {
+  font-size: 4rem;
+}
+.services-pg {
+  font-size: 1.5rem;
+}
+.services-list-item {
+  font-size: 2rem;
+}
+.services-list-item a {
+  text-decoration: none;
+  color: var(--main)
 }
 
 /* MEDIA */
 @media (max-width: 1300px) {
   .home-text {
     width: 800px;
+  }
+  .black-overlay {
+    height: 98.6vh;
   }
 }
 
