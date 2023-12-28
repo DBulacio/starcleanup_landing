@@ -101,6 +101,22 @@ p, h1 {
   margin-bottom: 2rem !important;
 }
 
+/* Home Slogan */
+.home-slogan-bg {
+  width: 100%;
+  background-color: var(--main);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+.home-slogan-bg {
+  color: #fff;
+}
+
+/* MEDIA */
 @media (max-width: 1300px) {
   .home-text {
     width: 800px;
