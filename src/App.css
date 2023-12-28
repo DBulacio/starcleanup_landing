@@ -1,5 +1,6 @@
 :root {
   --main: #529d38; /* rgb(82, 157, 56) */
+  --other-green: rgb(99, 189, 68);
   --secondary: #83389d;
   --dark: hsl(210, 10%, 19%);
   --dark-secondary: hsl(210, 10%, 30%);
@@ -47,7 +48,7 @@ p, h1 {
   transition: background-color .3s ease, transform .3s ease !important;
 }
 .main-button:hover {
-  background-color: rgb(99, 189, 68) !important;
+  background-color: var(--other-green) !important;
   transform: scale(1.1) !important;
 }
 
@@ -142,10 +143,15 @@ p, h1 {
 }
 .services-list-item {
   font-size: 2rem;
+  list-style-type: none;
+  /* list-style-image: url('path/to/your-custom-dot.png'); */
 }
 .services-list-item a {
   text-decoration: none;
   color: var(--main)
+}
+.services-list-item a:hover {
+  color: var(--other-green)
 }
 .carousel-item {
   height: 70vh !important;
