@@ -2,52 +2,25 @@ import React from "react";
 
 const Goals = () => {
   return (
-    <div className="row">
-      {/* <div className="services-content col-md-6">
-        <h2 className="services-title">OUR FLOOR CARE SERVICES</h2>
-        <p className="services-pg"><span className="starcleanup">Star Clean Up</span> offers specialized range of services directed to high end residential and commercial facilities in need of a long term solution to keep their floors and textiles looking the best and expanding lifespan as much as possible by ensuring only the best procedures, equipment and diamond embedded pads are used in all and every restoration or maintenance job</p>
-        <ul className="services-list">
-          <li className="services-list-item">
-            <a href="#"> Terrazzo Cleaning & Polishing</a>
-          </li>
-          <li className="services-list-item">
-            <a href="#"> Grout Repairs & Re-grouting</a>
-          </li>
-          <li className="services-list-item">
-            <a href="#"> Travertine Cleaning, Polishing and Sealing</a>
-          </li>
-          <li className="services-list-item">
-            <a href="#"> Limestone Cleaning, Polishing and Sealing</a>
-          </li>
-          <li className="services-list-item">
-            <a href="#"> Shower Restoration Services</a>
-          </li>
-          <li className="services-list-item">
-            <a href="#"> Nano Ceramic Coatings</a>
-          </li>
-          <li className="services-list-item">
-            <a href="#"> Commercial Carpet Cleaning</a>
-          </li>
-          <li className="services-list-item">
-            <a href="#"> Commercial Upholstery Cleaning</a>
-          </li>
-        </ul>
-        <Button className='main-button get-quote-button'>GET QUOTE</Button>
-      </div> */}
+    <div className="home__goals-bg row">
+      <div className="home__goals-content col-md-12 col-lg-6">
+        <h3 className="home__goals-title">AT <span className="starcleanup">STAR CLEAN UP</span>, OUR GOAL IS TO BE THE TOP FLOOR CLEANING COMPANY YOU'VE EVER TRUSTED FOR YOUR HOME OR BUSINESS.</h3>
+        <p className="home__goals-pg">We take pride in crafting a remarkable experience for our clients by delivering outstanding service, professionalism, and technical expertise. We prioritize specialization. Our highly trained teams excel in their specific service areas, providing exceptional care for each task they undertake. When working with us, you can expect skilled professionals ensuring a perfectly executed job.</p>
+        <p className="home__goals-pg">We recognize the growing demand for environmentally friendly cleaning practices. We are proud to offer organic cleaning options for our clients who prefer a more sustainable approach.</p>
+        <p className="home__goals-pg">Our commitment extends to the equipment we use. Rest assured, we equip our teams with the finest machines, tools, and supplies for every task. This unwavering dedication guarantees unmatched quality and results.</p>
+        <p className="home__goals-pg">Explore our services and reach out with any inquiries. We eagerly anticipate surpassing your expectations and delivering exceptional service beyond compare!</p>
+      </div>
 
-      {/* <div className="services-image col-md-6">
-        <Carousel>
-          <Carousel.Item>
-            <img src="carousel_1.jpeg"/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src="carousel_2.jpeg"/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src="carousel_3.jpeg"/>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
+      <div className="home__goals-images col-md-12 col-lg-6">
+        <div className="row home__goals-images-all-rows">
+          <img src="goals_1.webp" className="home__goals-image" alt="Example of our goals"/>
+          <img src="goals_2.webp" className="home__goals-image" alt="Example of our goals"/>
+        </div>
+        <div className="row home__goals-images-all-rows home__goals-images-second-row">
+          <img src="goals_3.webp" className="home__goals-image" alt="Example of our goals"/>
+          <img src="goals_4.webp" className="home__goals-image" alt="Example of our goals"/>
+        </div>
+      </div>
     </div>
   )
 }
