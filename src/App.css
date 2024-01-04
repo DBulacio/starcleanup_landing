@@ -247,6 +247,21 @@ p, h1 {
   background-color: var(--main);
 }
 
+/* CONTACT */
+.home__contact-bg {
+  background-color: var(--dark);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 3rem 10rem;
+}
+.home__contact-input {
+  background-color: var(--dark-secondary);
+  color: #FFF !important
+}
+
 /* MEDIA */
 @media (max-width: 1300px) {
   .home-text {
