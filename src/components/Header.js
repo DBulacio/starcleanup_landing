@@ -16,15 +16,10 @@ function Header() {
           <Nav className="me-auto">
             <Nav.Link className='nav-link' href="">About us</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item className='nav-item' href="">Tile & Grout</NavDropdown.Item>
-              <NavDropdown.Item className='nav-item' href="">
-                Terrazzo Floors Polishing
-              </NavDropdown.Item>
-              <NavDropdown.Item className='nav-item' href="">Limestone Restoration</NavDropdown.Item>
               <NavDropdown.Item className='nav-item' href="">Travertine Polishing</NavDropdown.Item>
-              <NavDropdown.Item className='nav-item' href="">Shower Restoration</NavDropdown.Item>
+              <NavDropdown.Item className='nav-item' href="">Terrazzo Floors Polishing</NavDropdown.Item>
+              <NavDropdown.Item className='nav-item' href="">Tile & Grout</NavDropdown.Item>
               <NavDropdown.Item className='nav-item' href="">Carpet Cleaning</NavDropdown.Item>
-              <NavDropdown.Item className='nav-item' href="">Upholstery Cleaning</NavDropdown.Item>
             </NavDropdown>
             <Button className='main-button'>CALL US TODAY XXX-XXX-XXXX</Button>
           </Nav>
