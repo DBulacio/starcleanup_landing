@@ -39,7 +39,8 @@ const Contact = () => {
   return (
     <div className="home__contact-bg">
       <h2>GET YOUR FREE QUOTE OR CONSULTATION</h2>
-      <p>Please fill out the form below with the details of the service you require and your contact information, and we will get back to you as soon as possible to discuss the options and pricing for our services.</p>
+      <p>Please fill out the form below with the details of the service you require and your contact information,</p>
+      <p>and we will get back to you as soon as possible to discuss the options and pricing for our services.</p>
       
       <ThemeProvider theme={darkTheme}>
         <Container>
@@ -112,7 +113,7 @@ const Contact = () => {
                   />
                 </Grid>
                 <Grid item xs={12}>
-                  <Button type="submit" variant="contained" color="success">
+                  <Button type="submit" variant="contained" color="success" className="main-button">
                     Submit
                   </Button>
                 </Grid>

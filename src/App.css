@@ -1,5 +1,5 @@
 :root {
-  --main: #529d38; /* rgb(82, 157, 56) */
+  --main: #529d39; /* rgb(82, 157, 56) */
   --other-green: rgb(99, 189, 68);
   --secondary: #83389d;
   --dark: hsl(210, 10%, 19%);
@@ -41,6 +41,7 @@ p, h1 {
 }
 .main-button {
   background-color: var(--main) !important;
+  color: #fff !important;
   border: none !important;
   font-family: Poppins, Sans-Serif !important;
   font-weight: 600 !important;
@@ -244,7 +245,7 @@ p, h1 {
   height: 100px;
   border-radius: 50%;
   border: 3px solid #FFF;
-  background-color: var(--main);
+  background: linear-gradient(120deg, #529d39, hsl(105, 47%, 32%));
 }
 
 /* CONTACT */
@@ -260,6 +261,30 @@ p, h1 {
 .home__contact-input {
   background-color: var(--dark-secondary);
   color: #FFF !important
+}
+
+/* FOOTER */
+.footer-bg {
+  background-color: hsl(210, 10%, 10%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.footer-rrss-icon {
+  color: #FFF;
+  font-size: 2.5rem !important;
+}
+.copy {
+  color: #FFF;
+  font-size: 1.1rem;
+}
+.instagram:hover {
+  color: #e1306c;
+}
+.facebook:hover {
+  color: #4267B2;
 }
 
 /* MEDIA */
