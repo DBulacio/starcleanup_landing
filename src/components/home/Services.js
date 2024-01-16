@@ -10,28 +10,25 @@ const Services = () => {
         <p className="services-pg"><span className="starcleanup">Star Clean Up</span> offers specialized range of services directed to high end residential and commercial facilities in need of a long term solution to keep their floors and textiles looking the best and expanding lifespan as much as possible by ensuring only the best procedures, equipment and diamond embedded pads are used in all and every restoration or maintenance job</p>
         <ul className="services-list">
           <li className="services-list-item">
-            <a href="/"> Terrazzo Cleaning & Polishing</a>
+            <a href="/"> Carpet Cleaning</a>
           </li>
           <li className="services-list-item">
-            <a href="/"> Grout Repairs & Re-grouting</a>
+            <a href="/"> Upholstery Cleaning</a>
           </li>
           <li className="services-list-item">
-            <a href="/"> Travertine Cleaning, Polishing and Sealing</a>
+            <a href="/"> Leather Cleaning</a>
           </li>
           <li className="services-list-item">
-            <a href="/"> Limestone Cleaning, Polishing and Sealing</a>
+            <a href="/"> Tile & Grout Floor Cleaning</a>
           </li>
           <li className="services-list-item">
-            <a href="/"> Shower Restoration Services</a>
+            <a href="/"> Hardwood Floor Cleaning</a>
           </li>
           <li className="services-list-item">
-            <a href="/"> Nano Ceramic Coatings</a>
+            <a href="/"> In-home Areas Rug Cleaning</a>
           </li>
           <li className="services-list-item">
-            <a href="/"> Commercial Carpet Cleaning</a>
-          </li>
-          <li className="services-list-item">
-            <a href="/"> Commercial Upholstery Cleaning</a>
+            <a href="/"> Stone Cleaning</a>
           </li>
         </ul>
         <Button className='main-button get-quote-button'>GET QUOTE</Button>

@@ -8,9 +8,12 @@ const Footer = () => {
   return (
     <div className="row">
       <div className="footer-bg">
-        <a href="https://www.instagram.com/thestarcleanupllc" target="_blank" rel="noreferrer"><InstagramIcon className="footer-rrss-icon instagram" /></a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FacebookIcon className="footer-rrss-icon facebook" /></a>
-        <p className="copy">Copyright © {cur_year} Star Clean Up</p>
+        <img src="logo_estirado_1080.png" className="footer-image" alt="Example of the result of our services"/>
+        <div className="footer-content">
+          <a href="https://www.instagram.com/thestarcleanupllc" target="_blank" rel="noreferrer"><InstagramIcon className="footer-rrss-icon instagram" /></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FacebookIcon className="footer-rrss-icon facebook" /></a>
+          <p className="copy">Copyright © {cur_year} Star Clean Up</p>
+        </div>
       </div>
     </div>
   )

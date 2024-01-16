@@ -144,6 +144,7 @@ p, h1 {
 }
 .services-pg {
   font-size: 1.5rem;
+  padding-right: 10px !important;
 }
 .services-list-item {
   font-size: 2rem;
@@ -263,6 +264,9 @@ p, h1 {
   align-items: center;
   padding: 3rem 10rem;
 }
+.home__contact-pg {
+  margin-bottom: 1rem !important;
+}
 .home__contact-input {
   background-color: var(--dark-secondary);
   color: #FFF !important
@@ -274,12 +278,20 @@ p, h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 1rem 0;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .footer-rrss-icon {
   color: #FFF;
   font-size: 2.5rem !important;
+}
+.footer-image {
+  width: 200px;
 }
 .copy {
   color: #FFF;

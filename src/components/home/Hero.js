@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const Hero = () => {
   return (
-    <div className='row'>
+    <div className='row home__hero'>
       <span>
         <Image className='home-bg' src="home_bg.jpg" alt="main background for homepage" fluid />
         <div className="black-overlay"></div>
