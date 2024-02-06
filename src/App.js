@@ -13,6 +13,9 @@ function App() {
           <Route path="/" exact element={<HomePage/>} />
         </Routes>
       </Router>
+      <a href="https://api.whatsapp.com/send?phone=1234567890" class="whatsapp-chat" target="_blank">
+        <img src="whatsapp-white-icon.webp" alt="WhatsApp Icon" class="whatsapp-icon" />
+      </a>
       <Footer />
     </div>
   );

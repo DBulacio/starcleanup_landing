@@ -7,7 +7,6 @@ const Hero = () => {
     <div className='row home__hero'>
       <span>
         <Image className='home-bg' src="home_bg.jpg" alt="main background for homepage" fluid />
-        <div className="black-overlay"></div>
         <span className='home-text'>
           <p className='home-pg-1'>CARPET & FLOOR CLEANING</p>
           <h1 className='home-title'>STAR CLEAN UP</h1>
