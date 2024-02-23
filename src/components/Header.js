@@ -16,7 +16,7 @@ function Header() {
           <Nav className="me-auto">
             <Nav.Link className='nav-link' href="">About us</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item className='nav-item' href="">Carpet Cleaning</NavDropdown.Item>
+              <NavDropdown.Item className='nav-item' href="/carpetCleaning">Carpet Cleaning</NavDropdown.Item>
               <NavDropdown.Item className='nav-item' href="">Upholstery Cleaning</NavDropdown.Item>
               <NavDropdown.Item className='nav-item' href="">Leather Cleaning</NavDropdown.Item>
               <NavDropdown.Item className='nav-item' href="">Tile & Grout Floor Cleaning</NavDropdown.Item>

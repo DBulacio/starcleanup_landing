@@ -1,5 +1,6 @@
 import './App.css';
 import HomePage from './pages/HomePage';
+import CarpetCleaning from './pages/CarpetCleaning';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" exact element={<HomePage/>} />
+          <Route path="/carpetCleaning" element={<CarpetCleaning/>} />
         </Routes>
       </Router>
       <a href="https://api.whatsapp.com/send?phone=1234567890" class="whatsapp-chat" target="_blank">
