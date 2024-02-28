@@ -4,11 +4,11 @@ const Goals = () => {
   return (
     <div className="home__goals-bg row">
       <div className="home__goals-content col-md-12 col-lg-6">
-        <h3 className="home__goals-title">AT <span className="starcleanup">STAR CLEAN UP</span>, OUR GOAL IS TO BE THE TOP FLOOR CLEANING COMPANY YOU'VE EVER TRUSTED FOR YOUR HOME OR BUSINESS.</h3>
-        <p className="home__goals-pg">We take pride in crafting a remarkable experience for our clients by delivering outstanding service, professionalism, and technical expertise. We prioritize specialization. Our highly trained teams excel in their specific service areas, providing exceptional care for each task they undertake. When working with us, you can expect skilled professionals ensuring a perfectly executed job.</p>
-        <p className="home__goals-pg">We recognize the growing demand for environmentally friendly cleaning practices. We are proud to offer organic cleaning options for our clients who prefer a more sustainable approach.</p>
-        <p className="home__goals-pg">Our commitment extends to the equipment we use. Rest assured, we equip our teams with the finest machines, tools, and supplies for every task. This unwavering dedication guarantees unmatched quality and results.</p>
-        <p className="home__goals-pg">Explore our services and reach out with any inquiries. We eagerly anticipate surpassing your expectations and delivering exceptional service beyond compare!</p>
+        <h3 className="home__goals-title">AT <span className="starcleanup">STAR CLEAN UP</span> WE AIM TO BE THE BEST FLOOR CLEANING COMPANY THAT YOU HAVE EVER INVITED TO YOUR HOME OR BUSINESS.</h3>
+        <p className="home__goals-pg">We take pride in making sure our clients have the best possible experience by providing excellent service, professionalism and technical skill. As a family-owned South Florida business, we make it our mission to deliver award-winning professional home services, including carpet cleaning, upholstery cleaning, tile and grout cleaning, natural stone and terrazzo floors cleaning and polishing, travertine floors restoration, grout repairs, showers cleaning and more.</p>
+        <p className="home__goals-pg">We understand the importance of specialization, which is why each of our teams is highly trained in their specific service areas and committed to providing the highest standard of care for every job they do. You can trust that when you work with us, you’re getting a team of skilled professionals ensuring the job is done right.</p>
+        <p className="home__goals-pg">Our commitment to excellence extends beyond our employees to the equipment we use. Rest assured that we only use the best machines, tools, and supplies for every task, ensuring unmatched quality and unmatched results.</p>
+        <p className="home__goals-pg">We invite you to explore our award-winning services and reach out if you have any questions. We’re excited to exceed your expectations and provide you with outstanding service!</p>
       </div>
 
       <div className="home__goals-images col-md-12 col-lg-6">

@@ -7,30 +7,80 @@ const Values = () => {
   return (
     <div className="row">
       <div className="home__values-bg">
-        <p className="home__values-pg">WHAT MAKES US DIFFERENT FROM ANY OTHER FLOOR CARE COMPANY IN MIAMI - FLORIDA</p>
-        <h2 className="home__values-title">THE PRINCIPLES GUIDING OUR FLOOR MAINTENANCE BUSINESS</h2>
+        <h2 className="home__values-title">NEIGHBORHOODS WHERE WE OFFER OUR GROUT CLEANING SERVICES</h2>
 
         <div className="home__values-content-container">
           <div className="home__values-content">
-            <span className="home__values-icon-bg">
-              <ConnectWithoutContactOutlinedIcon  style={{ fontSize: 50}}/>
-            </span>
-            <h3 className="home__values-content-title">Comprehensive Solutions</h3>
-            <p  className="home__values-content-pg">Our dedicated team of experts provides unmatched carpet cleaning and floor maintenance services. Our goal is to cater to the specific needs and budgets of our clients, delivering tailored cleaning solutions. Trust our highly skilled professionals to handle your carpets and floors with expertise and care.</p>
+            <ul className="services-list">
+              <li className="our_services-list-item">
+                MIAMI BEACH
+              </li>
+              <li className="our_services-list-item">
+                MIAMI LAKES
+              </li>
+              <li className="our_services-list-item">
+                MIAMI SHORES
+              </li>
+              <li className="our_services-list-item">
+                BAY HARBOUR
+              </li>
+              <li className="our_services-list-item">
+                SURFSIDE
+              </li>
+              <li className="our_services-list-item">
+                NORTH MIAMI
+              </li>
+              <li className="our_services-list-item">
+                CUTLER BAY
+              </li>
+            </ul>
           </div>
           <div className="home__values-content">
-            <span className="home__values-icon-bg">
-              <HandshakeOutlinedIcon  style={{ fontSize: 50}}/>
-            </span>
-            <h3 className="home__values-content-title">Integrity & trust</h3>
-            <p  className="home__values-content-pg">Integrity is our guiding principle, and we stand behind every project with a solid guarantee. Earning the trust of our clients is essential, so we strive to deliver high-quality results and exceptional customer service. Partnering with us means you can rely on our commitment to excellence and our dedication to exceeding your expectations.</p>
+            <ul className="services-list">
+              <li className="our_services-list-item">
+                CORAL GABLES
+              </li>
+              <li className="our_services-list-item">
+                PALMETTO BAY
+              </li>
+              <li className="our_services-list-item">
+                KENDALL
+              </li>
+              <li className="our_services-list-item">
+                AVENTURA
+              </li>
+              <li className="our_services-list-item">
+                MIRAMAR
+              </li>
+              <li className="our_services-list-item">
+                HOLLYWOOD
+              </li>
+            </ul>
           </div>
           <div className="home__values-content">
-            <span className="home__values-icon-bg">
-              <EnergySavingsLeafOutlinedIcon  style={{ fontSize: 50}}/>
-            </span>
-            <h3 className="home__values-content-title">Eco Friendly Solutions</h3>
-            <p  className="home__values-content-pg">Protecting the health of family, employees, and pets is paramount. Star Clean Up places high value on the well-being of our technicians and utilizes Green Solutions for carpet cleaning. By choosing environmentally friendly methods, we minimize exposure to harmful chemicals. Our focus is to deliver superior cleaning services while prioritizing the health and safety of everyone involved.</p>
+            <ul className="services-list">
+              <li className="our_services-list-item">
+                PEMBROKE PINES
+              </li>
+              <li className="our_services-list-item">
+                FORT LAUDERDALE
+              </li>
+              <li className="our_services-list-item">
+                LITTLE HAVANA
+              </li>
+              <li className="our_services-list-item">
+                CITY OF MIAMI
+              </li>
+              <li className="our_services-list-item">
+                KEY BISCAYNE
+              </li>
+              <li className="our_services-list-item">
+                COCONOUT GROVE
+              </li>
+              <li className="our_services-list-item">
+                NORTH MIAMI BEACH
+              </li>
+            </ul>
           </div>
         </div>
       </div>

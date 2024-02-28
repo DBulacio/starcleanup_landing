@@ -4,8 +4,7 @@ const Slogan = () => {
   return (
     <div className='row'>
       <div className="home-slogan-bg">
-        <p>We recognize the growing demand for environmentally friendly cleaning practices.</p>
-        <p>We are proud to offer organic cleaning options for our clients who prefer a more sustainable approach.</p>
+        <p>OWNER OPERATED – LOCAL BUSINESS – OVER 20 YEARS OF EXPERIENCE –  PERSONALIZED SERVICE – 1 MILLION LIABILITY – 100% SATISFACTION GUARANTEE </p>
       </div>
     </div>
   )

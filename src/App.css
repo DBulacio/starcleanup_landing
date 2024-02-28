@@ -4,6 +4,7 @@
   --secondary: #83389d;
   --dark: hsl(210, 10%, 10%);
   --dark-secondary: hsl(210, 10%, 15%);
+  --dark-gris-adrian: hsl(0, 0%, 57%);
 }
 
 body {
@@ -60,6 +61,7 @@ p, h1 {
   font-weight: 500 !important;
   color: #fff !important;
 }
+
 .nav-item:hover {
   background-color: var(--main) !important;
 }
@@ -72,7 +74,6 @@ p, h1 {
   object-position: center center;
   position: relative;
 }
-
 
 .home-text {
   position: absolute;
@@ -103,6 +104,7 @@ p, h1 {
   margin: 0;
   --bs-gutter-x: 0 !important;
 }
+
 /* Home Slogan */
 .home-slogan-bg {
   width: 100%;
@@ -185,6 +187,80 @@ p, h1 {
   line-height: 1.8rem;
   color: #FFF;
   margin-bottom: 2rem !important;
+}
+
+/* ABOUT US */
+.services__values-bg {
+  background-color: var(--dark-gris-adrian);
+  color: #444444;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 3rem 10rem;
+}
+
+.our__services-bg {
+  background-color: var(--dark-gris-adrian);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 10rem;
+}
+
+.our__services-title {
+  font-size: 2rem;
+  margin-bottom: 2rem !important;
+  color: #444444;
+}
+
+.our__services-pg {
+  /* Cambiar tipografía */
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #444444;
+  margin-bottom: 2rem !important;
+}
+
+.our_services-list-item {
+  font-size: 1.5rem;
+}
+
+.our__clients-bg {
+  background-color: var(--dark-secondary);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 3rem 10rem;
+}
+
+.our__clients-carrousel-text {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.our__clients-carrousel-title {
+  font-size: 65px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* TILES */
+.more__than-image {
+  max-width: 550px !important;
+}
+
+.tailored-bg {
+  background-color: var(--dark-gris-adrian);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 10rem;
 }
 
 /* VALUES */
@@ -317,6 +393,7 @@ p, h1 {
   height: auto;
   fill: #fff; /* White color for the WhatsApp icon */
 }
+
 /* MEDIA */
 @media (max-width: 1300px) {
   .home-text {
@@ -345,6 +422,9 @@ p, h1 {
     width: 350px;
     max-width: 350px !important;
   } */
+  .services__whoare-image {
+    max-width: 550px !important;
+  }
 }
 
 @media (max-width: 992px) {

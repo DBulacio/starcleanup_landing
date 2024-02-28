@@ -10,7 +10,7 @@ const Hero = () => {
         <span className='home-text'>
           <p className='home-pg-1'>CARPET & FLOOR CLEANING</p>
           <h1 className='home-title'>STAR CLEAN UP</h1>
-          <p className='home-pg-2'>PREMIUM FLOOR CARE SERVICES IN MIAMI-DADE - BROWARD AND PALM BEACH</p>
+          <p className='home-pg-2'>PROUDLY SERVING MIAMI - CORAL GABLES - MIAMI BEACH - PINECREST - KEY BISCAYNE - AVENTURA - HOLLYWOOD - FORT LAUDERDALE AND SURROUNDING AREAS</p>
           <Button className='main-button'>CALL US TODAY XXX-XXX-XXXX</Button>
         </span>
       </span>
