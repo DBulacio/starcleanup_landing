@@ -2,7 +2,7 @@ import React from "react";
 
 const Goals = () => {
   return (
-    <div className="home__goals-bg row">
+    <div className="home-services-bg row">
       <div className="home__goals-content col-md-12 col-lg-6">
         <p className="home__goals-pg">Tile and Grout Protection for life</p>
         <h3 className="home__goals-title"><span className="starcleanup">FLOOR NANO CERAMIC COATINGS</span></h3>

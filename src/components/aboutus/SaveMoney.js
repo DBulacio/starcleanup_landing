@@ -2,7 +2,7 @@ import React from "react";
 
 const SaveMoney = () => {
   return (
-    <div className="home__goals-bg row">
+    <div className="home-services-bg row">
       <div className="home__goals-content col-md-12 col-lg-6">
         <h3 className="home__goals-title">WE'LL <span className="starcleanup">SAVE YOU MONEY</span> AND MAKE YOU SMILE</h3>
         <p className="home__goals-pg">Once you try our services you will never look for another floor cleaning, grout repair or natural stone restoration and polishing company to serve your home or business again.</p>

@@ -191,8 +191,8 @@ p, h1 {
 
 /* ABOUT US */
 .services__values-bg {
-  background-color: var(--dark-gris-adrian);
-  color: #444444;
+  background-color: var(--dark);
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -201,7 +201,8 @@ p, h1 {
 }
 
 .our__services-bg {
-  background-color: var(--dark-gris-adrian);
+  background-color: var(--dark);
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -212,14 +213,14 @@ p, h1 {
 .our__services-title {
   font-size: 2rem;
   margin-bottom: 2rem !important;
-  color: #444444;
+  color: #ffffff;
 }
 
 .our__services-pg {
   /* Cambiar tipografía */
   font-size: 1.5rem;
   line-height: 1.8rem;
-  color: #444444;
+  color: #ffffff;
   margin-bottom: 2rem !important;
 }
 
@@ -229,6 +230,16 @@ p, h1 {
 
 .our__clients-bg {
   background-color: var(--dark-secondary);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 3rem 10rem;
+}
+
+.our__clients-bg-dark {
+  background-color: var(--dark);
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -255,7 +266,8 @@ p, h1 {
 }
 
 .tailored-bg {
-  background-color: var(--dark-gris-adrian);
+  background-color: var(--dark);
+  color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -266,6 +278,15 @@ p, h1 {
 /* VALUES */
 .home__values-bg {
   background-color: var(--dark-secondary);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 3rem 10rem;
+}
+.home__values-bg-dark {
+  background-color: var(--dark);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -321,6 +342,15 @@ p, h1 {
 /* CONTACT */
 .home__contact-bg {
   background-color: var(--dark);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 3rem 10rem;
+}
+.home__contact-bg_secondary {
+  background-color: var(--dark-secondary);
   color: #fff;
   display: flex;
   flex-direction: column;

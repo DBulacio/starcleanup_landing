@@ -7,7 +7,7 @@ import ConnectWithoutContactOutlinedIcon from '@mui/icons-material/ConnectWithou
 const OurClients = () => {
   return (
     <div className="row">
-      <div className="our__clients-bg">
+      <div className="home__values-bg-dark">
             <h1 className="our__clients-carrousel-title"><span className="starcleanup">OUR CLIENTS LOVES US!!</span></h1>
             <Carousel controls={false} indicators={false} wrap={true}>
             <Carousel.Item>

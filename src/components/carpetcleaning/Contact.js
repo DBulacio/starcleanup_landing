@@ -38,7 +38,7 @@ const Contact = () => {
   };
   return (
     <div className="row">
-      <div className="home__contact-bg">
+      <div className="home__contact-bg_secondary">
         <h2>GET YOUR FREE QUOTE OR CONSULTATION</h2>
         <p>Please fill out the form below with the details of the service you require and your contact information,</p>
         <p className="home__contact-pg">and we will get back to you as soon as possible to discuss the options and pricing for our services.</p>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Morethan = () => {
   return (
-    <div className="home__goals-bg row">
+    <div className="home-services-bg row">
       <div className="home__goals-images col-md-12 col-lg-12">
         <h6 className="services-title"><span className="starcleanup">MORE THAN A PROFESSIONAL GROUT CLEANING COMPANY</span></h6>
       </div>
